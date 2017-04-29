@@ -27,9 +27,9 @@
                 <TableColumn prefWidth="75.0" text="C2" />
               </columns>
             </TableView>
-            <Button minWidth="-Infinity" mnemonicParsing="false" prefHeight="34.0" prefWidth="200.0" text="OK" textOverrun="CLIP" styleClass="red_button"/>
-            <Button minWidth="-Infinity" mnemonicParsing="false" prefHeight="34.0" prefWidth="200.0" text="OK" textOverrun="CLIP" styleClass="green_button"/>
-            <Button minWidth="-Infinity" mnemonicParsing="false" prefHeight="34.0" prefWidth="200.0" text="OK" textOverrun="CLIP" styleClass="yellow_button"/>
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#onRedAction" prefHeight="34.0" prefWidth="200.0" styleClass="red_button" text="OK" textOverrun="CLIP" />
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#onGreenAction" prefHeight="34.0" prefWidth="200.0" styleClass="green_button" text="OK" textOverrun="CLIP" />
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#onYellowAction" prefHeight="34.0" prefWidth="200.0" styleClass="yellow_button" text="OK" textOverrun="CLIP" />
          </children>
       </FlowPane>
    </children>
