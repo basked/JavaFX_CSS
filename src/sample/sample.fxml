@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <FlowPane alignment="CENTER" prefHeight="246.0" prefWidth="200.0">
+         <children>
+            <DatePicker prefHeight="25.0" prefWidth="200.0" />
+            <TableView prefHeight="199.0" prefWidth="200.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="C1" />
+                <TableColumn prefWidth="75.0" text="C2" />
+              </columns>
+            </TableView>
+            <Button minWidth="-Infinity" mnemonicParsing="false" prefHeight="34.0" prefWidth="200.0" text="OK" textOverrun="CLIP" styleClass="red_button"/>
+            <Button minWidth="-Infinity" mnemonicParsing="false" prefHeight="34.0" prefWidth="200.0" text="OK" textOverrun="CLIP" styleClass="green_button"/>
+            <Button minWidth="-Infinity" mnemonicParsing="false" prefHeight="34.0" prefWidth="200.0" text="OK" textOverrun="CLIP" styleClass="yellow_button"/>
+         </children>
+      </FlowPane>
+   </children>
+</GridPane>

@@ -1,0 +1,21 @@
+.scene
+{
+-fx-color:red;
+}
+.red_button
+{
+    -fx-font-size:14pt;
+    -fx-color:red;
+}
+.green_button
+{
+    -fx-font-size:14pt;
+    -fx-color:green;
+}
+.yellow_button
+
+{
+
+    -fx-font-size:14pt;
+    -fx-color:yellow;
+}
