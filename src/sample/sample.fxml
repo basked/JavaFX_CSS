@@ -8,6 +8,7 @@
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
 
 <GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
@@ -27,7 +28,10 @@
                 <TableColumn prefWidth="75.0" text="C2" />
               </columns>
             </TableView>
-            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#onRedAction" prefHeight="34.0" prefWidth="200.0" styleClass="red_button" text="OK" textOverrun="CLIP" />
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#onRedAction" prefHeight="34.0" prefWidth="200.0" styleClass="red_button" text="OK" textOverrun="CLIP">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font></Button>
             <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#onGreenAction" prefHeight="34.0" prefWidth="200.0" styleClass="green_button" text="OK" textOverrun="CLIP" />
             <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#onYellowAction" prefHeight="34.0" prefWidth="200.0" styleClass="yellow_button" text="OK" textOverrun="CLIP" />
          </children>

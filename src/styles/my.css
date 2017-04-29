@@ -5,7 +5,8 @@
 .red_button
 {
     -fx-font-size:14pt;
-    -fx-color:red;
+    -fx-color:#30d55d;
+    -fx-font-color:#1a2c0d;
 }
 .green_button
 {
