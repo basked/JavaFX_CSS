@@ -15,6 +15,9 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("../fxml/main.fxml"));
         primaryStage.setTitle("Телефонный справочник");
+        // минимальные значения ширины и высоты
+        primaryStage.setMinWidth(380);
+        primaryStage.setMinHeight(335);
         Scene scene = new Scene(root,361,315);
         scene.getStylesheets().add(0, "../styles/my.css");
         primaryStage.setScene(scene);
