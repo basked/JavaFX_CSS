@@ -1,4 +1,4 @@
-package sample;
+package bas.telphone.JavaFX.start;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,12 +10,13 @@ public class Main extends Application {
 
     private Scene scene;
 
+
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
-        Scene scene = new Scene(root,200,356);
-        scene.getStylesheets().add(0, "styles/my.css");
+        Parent root = FXMLLoader.load(getClass().getResource("../fxml/main.fxml"));
+        primaryStage.setTitle("Телефонный справочник");
+        Scene scene = new Scene(root,361,315);
+        scene.getStylesheets().add(0, "../styles/my.css");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
