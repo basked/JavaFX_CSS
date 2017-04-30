@@ -16,10 +16,10 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("../fxml/main.fxml"));
         primaryStage.setTitle("Телефонный справочник");
         // минимальные значения ширины и высоты
-        primaryStage.setMinWidth(380);
+        primaryStage.setMinWidth(377);
         primaryStage.setMinHeight(335);
         Scene scene = new Scene(root,361,315);
-        scene.getStylesheets().add(0, "../styles/my.css");
+        scene.getStylesheets().add(0, "bas/telphone/JavaFX/styles/my.css");
         primaryStage.setScene(scene);
         primaryStage.show();
     }

@@ -1,0 +1,10 @@
+.button{
+-fx-color:red;
+}
+#addBut{
+-fx-color:green;
+}
+
+#btSearch{
+-fx-color:gray;
+}
