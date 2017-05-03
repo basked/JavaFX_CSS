@@ -1,5 +1,6 @@
 package bas.telphone.JavaFX.start;
 
+import bas.telphone.JavaFX.interfaces.impls.CollectionAddressBook;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -22,11 +23,18 @@ public class Main extends Application {
         scene.getStylesheets().add(0, "bas/telphone/JavaFX/styles/my.css");
         primaryStage.setScene(scene);
         primaryStage.show();
+        testData();
     }
 
 
     public static void main(String[] args) {
         launch(args);
 
+    }
+
+    private void testData() {
+        CollectionAddressBook addressBook = new CollectionAddressBook();
+        addressBook.fillTestData();
+        addressBook.print();
     }
 }

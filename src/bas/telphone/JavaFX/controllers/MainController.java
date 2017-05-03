@@ -44,6 +44,7 @@ public class MainController {
             btnSearch.setId("btSearch");
             Stage stage = new Stage();
             Parent root = FXMLLoader.load(getClass().getResource("../fxml/edit.fxml"));
+
             stage.setTitle("Редактирование записи");
             stage.setMinHeight(95);
             stage.setMinHeight(71);
